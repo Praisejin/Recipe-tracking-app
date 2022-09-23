@@ -10,7 +10,7 @@ return (
   <td className="content_td"><p>{recipe.cuisine}</p></td>
   <td className="content_td"><img src={recipe.photo}/></td>
   <td className="content_td"><p>{(recipe.ingredients)}</p></td>
-  <td className="content_td"><p>{recipe.preparation}</p></td>
+  <td className="content_td"><p>{(recipe.preparation)}</p></td>
   <td><button name="delete" onClick={deleteHandler}>Delete</button></td>
     </tr>
 )
